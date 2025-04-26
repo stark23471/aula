@@ -1,4 +1,16 @@
-p {
-  color: rgb(255, 0, 230);
-  background-color: black;
+body {
+  color: #333333;
+  font-family: "lucida sans unicode", "lucida grande" "sans serif";
 }
+h1 {
+  background-image: url(../img/body-background.png);
+}
+h2 {
+  border-bottom: #333333;
+}
+figure {
+  background-color: #F2EDED;
+  border:1px solide #ccc
+  text-aling:center;
+}
+figcaption{font-style: italic;}
