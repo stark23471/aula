@@ -52,3 +52,7 @@ header {
   margin: 0 auto;
   width: 940px;
 }
+.busca,
+.menu-departamentos {
+  float: left;
+}
