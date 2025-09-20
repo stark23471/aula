@@ -46,6 +46,14 @@
                 <h2>sua compra</h2>
               </div>
               <div class="card-body">
+<div class="form-group">
+  <label for="qtd">quantidade:</label>
+  <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+</div>
+  <div class="form-group">      
+  <label for="total">Total:</label>
+  <output id="total" class="form-control">R$ 129,90</output>
+  </div>
                 <img
                   src="img/produtos/foto1-verde.png"
                   alt="fuzzy cardigan"
@@ -59,7 +67,7 @@
                   <dt>tamanho</dt>
                   <dd>40</dd>
                   <dt>preco</dt>
-                  <dd>R$ 129,90</dd>
+                  <dd id="preco">R$ 129,90</dd>
                 </dl>
               </div>
             </div>
@@ -156,5 +164,6 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="js/total.js"></script>
   </body>
 </html>
